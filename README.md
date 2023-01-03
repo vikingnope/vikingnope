@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-- 👋 I'm a current student in Malta 🇲🇹
-- 🖥️ I'm interested in programming, football, playing games and swimming
-- 🌱 I’m currently learning React, Javascript, Typescript, Java
-- 🔭 I’m currently working on the Heavy Division Project Website and multiple small projects
+- 👋 I am a current student in Malta 🇲🇹
+- 🖥️ I am interested in programming, football, playing games, swimming, airplanes and flight simulation
+- 🌱 I am currently learning React, Javascript, Typescript, Java
+- 🔭 I am currently working on the Heavy Division Project Website and multiple small projects
 - 📫 You can reach me on Discord: @Vikingnope#2797
