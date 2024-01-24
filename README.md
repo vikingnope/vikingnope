@@ -8,7 +8,7 @@ I am a current student in Malta 🇲🇹, majoring in Pure Mathematics, Computin
 
 * 🌍  I'm based in Malta
 * 🚀  I'm currently working on [Worther](http://worther.vercel.app/)
-* 🧠  I'm learning C
+* 🧠  I'm learning how to be a free-lance software developer
 * ⚡  My hobbies are programming, football, playing games, airplanes, flight simulation, rockets and space
 
 ### Skills
