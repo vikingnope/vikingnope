@@ -35,7 +35,7 @@ I am a current student in Malta 🇲🇹, majoring in Pure Mathematics, Computin
 
 <div width="100%" align="center"><a href="https://github.com/vikingnope/worther" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=vikingnope&repo=worther&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a><a href="https://github.com/vikingnope/lunar-simulations.github.io" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=vikingnope&repo=lunar-simulations.github.io&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
 
-<div width="100%" align="center"><a href="https://github.com/vikingnope/c-project" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=vikingnope&repo=c-project&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div>
+<div width="100%" align="center"><a href="https://github.com/vikingnope/LMML-MSFS" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=vikingnope&repo=LMML-MSFS&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div>
 
 <br /><br /><br /><br /><br /><br />
 
