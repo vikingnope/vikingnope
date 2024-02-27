@@ -10,7 +10,7 @@ I am a current student in Malta 🇲🇹, majoring in Pure Mathematics, Computin
 * 🌍  I'm based in Malta
 * 🚀  I'm currently working on [Worther](http://worther.vercel.app/), and with the [Lunar Simualtions](https://lunar-simulations.github.io/) team to develop the Boeing 767 for MSFS.
 * 🧠  I'm learning how to be a freelance software developer
-* ⚡  My hobbies are programming, football, playing games, airplanes, flight simulation, rockets and space
+* ⚡  My hobbies are coding, football, playing games, airplanes, flight simulation, rockets and space
 
 ### Skills
 
