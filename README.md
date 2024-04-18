@@ -4,10 +4,10 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Junior Software Developer and University Student
 ------------------------------------------------
 
-I am a current student in Malta 🇲🇹, majoring in Pure Mathematics, Computing and Physics
+I am a current student in Malta 🇲🇹, majoring in Mathematics and Physics
 
 * 🌍  I'm based in Malta
-* 🚀  I'm currently working on [Worther](https://worther.vercel.app/), and with the [Lunar Simualtions](https://lunar-simulations.github.io/) team to develop the Boeing 767 for MSFS.
+* 🚀  I'm currently working on [Worther](https://worther.vercel.app/), and with the [Lunar Simualtions](https://lunar-simulations.github.io/) team to developing aircraft for Microsoft Flight Simulator.
 * 🧠  I'm learning Rust and how to be a freelance software developer
 * ⚡  My hobbies are coding, football, playing games, airplanes, flight simulation, rockets and space
 
