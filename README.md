@@ -7,7 +7,7 @@ Junior Software Developer and University Student
 I am a current student in Malta 🇲🇹, majoring in Mathematics and Physics
 
 * 🌍  I'm based in Malta
-* 🚀  I'm currently working on [Worther](https://worther.vercel.app/), and with the [Lunar Simualtions](https://lunar-simulations.github.io/) team to developing aircraft for Microsoft Flight Simulator.
+* 🚀  I'm currently working on [Worther](https://worther.vercel.app/) my own weather website, and with the [Lunar Simualtions](https://lunar-simulations.github.io/) team developing aircraft for Microsoft Flight Simulator.
 * 🧠  I'm learning Rust and how to be a freelance software developer
 * ⚡  My hobbies are coding, football, playing games, airplanes, flight simulation, rockets and space
 
