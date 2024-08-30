@@ -4,12 +4,12 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Junior Software Developer and University Student
 ------------------------------------------------
 
-I am a current student in Malta 🇲🇹, majoring in Mathematics and Physics
+I am a current student in Malta 🇲🇹, majoring in Physics
 
 * 🌍  I'm based in Malta
-* 🚀  I'm currently working on [Worther](https://worther.vercel.app/) my own weather website, and with the [Lunar Simulations](https://lunar-simulations.github.io/) team developing aircraft for Microsoft Flight Simulator.
+* 🚀  I'm currently working on [Worther](https://worther.vercel.app/) my own weather website, and with both the [Horizon Simulations](https://github.com/Horizon-Simulations) team and the [Lunar Simulations](https://lunar-simulations.github.io/) team developing aircraft for Microsoft Flight Simulator.
 * 🧠  I would like to learn Rust and how to be a freelance software developer
-* ⚡  My hobbies are coding, football, playing games, aviation, flight simulation, rockets and space
+* ⚡  My hobbies are coding, football, gaming, aviation, flight simulation, rockets and space
 
 ### Skills
 
