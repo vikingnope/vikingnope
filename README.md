@@ -25,9 +25,7 @@ I am a current student in Malta 🇲🇹, majoring in Physics
 
 <b>My GitHub Stats</b>
 
-<div width="100%" align="center"><a align="left" href="http://www.github.com/vikingnope"><img align="left" src="https://github-readme-stats.vercel.app/api?username=vikingnope&show_icons=true&hide=&count_private=true&hide_border=true&theme=slateorange" alt="vikingnope's GitHub stats" /></a><a href="https://github.com/vikingnope" align="right"><img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vikingnope&layout=compact&langs_count=10&hide_border=true&locale=en&custom_title=Top%20%Languages&theme=slateorange" alt="Top Languages" /></a></div>
-
-<br />
+<a href="http://www.github.com/vikingnope"><img src="https://github-readme-stats.vercel.app/api?username=vikingnope&show_icons=true&hide=&count_private=true&hide_border=true&theme=slateorange" alt="vikingnope's GitHub stats" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/vikingnope"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vikingnope&layout=compact&langs_count=10&hide_border=true&locale=en&custom_title=Top%20%Languages&theme=slateorange" alt="Top Languages" /></a>
 
 <b>Top Repositories</b>
 
