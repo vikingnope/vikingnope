@@ -25,22 +25,18 @@ I am a current student in Malta 🇲🇹, majoring in Physics
 
 <b>My GitHub Stats</b>
 
-<a href="http://www.github.com/vikingnope"><img src="https://github-readme-stats.vercel.app/api?username=vikingnope&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=000000&icon_color=0891b2&bg_color=ffffff&hide_border=true&show_icons=true" alt="vikingnope's GitHub stats" /></a>
+<a href="http://www.github.com/vikingnope"><img src="https://github-readme-stats.vercel.app/api?username=vikingnope&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="vikingnope's GitHub stats" /></a>
 
-<a href="https://github.com/vikingnope" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vikingnope&langs_count=10&title_color=0891b2&text_color=000000&icon_color=0891b2&bg_color=ffffff&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+<a href="https://github.com/vikingnope" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vikingnope&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
 <b>Top Repositories</b>
 
-<div width="100%" align="center"><a href="https://github.com/vikingnope/worther" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=vikingnope&repo=worther&title_color=0891b2&text_color=000000&icon_color=0891b2&bg_color=ffffff&hide_border=true&locale=en" /></a><a href="https://github.com/vikingnope/LMML-MSFS" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=vikingnope&repo=LMML-MSFS&title_color=0891b2&text_color=000000&icon_color=0891b2&bg_color=ffffff&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
+<div width="100%" align="center"><a href="https://github.com/vikingnope/worther" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=vikingnope&repo=worther&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a><a href="https://github.com/vikingnope/LMML-MSFS" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=vikingnope&repo=LMML-MSFS&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
 
 <br />
 
-<div width="100%" align="center"><a href="https://github.com/vikingnope/lunar-simulations.github.io" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=vikingnope&repo=lunar-simulations.github.io&title_color=0891b2&text_color=000000&icon_color=0891b2&bg_color=ffffff&hide_border=true&locale=en" /></a></div>
-
-<br /><br /><br /><br /><br /><br /><br />
-
 ### Support Me
 
-<a href="https://www.buymeacoffee.com/vikingnope"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150"/></a>
+<a href="https://www.buymeacoffee.com/vikingnope"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="150"/></a>
 
 <a href="https://www.paypal.com/donate/?hosted_button_id=4RJY7V64TUKHQ"><img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Donate with PayPal" width="180"/></a>
