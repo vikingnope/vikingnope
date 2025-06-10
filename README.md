@@ -8,7 +8,7 @@ I am a current student in Malta 🇲🇹, majoring in Physics
 
 * 🌍  I'm based in Malta
 * 🚀  I'm currently working on [Worther](https://worther.vercel.app/) my own weather website, and with both the [Horizon Simulations](https://github.com/Horizon-Simulations) team and the [Lunar Simulations](https://lunar-simulations.github.io/) team developing aircraft for Microsoft Flight Simulator.
-* 🧠  I would like to learn Rust and how to be a freelance software developer
+* 🧠  I would like to learn Rust
 * ⚡  My hobbies are coding, football, gaming, aviation, flight simulation, rockets and space
 
 ### Skills
