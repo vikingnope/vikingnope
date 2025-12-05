@@ -36,7 +36,7 @@
   <p><b>Languages</b></p>
   <p>
     <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" alt="C" />
-    <img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white" alt="C#" />
+    <img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiBmaWxsPSJ3aGl0ZSI%2bPHBhdGggZD0iTTEyOC4xODIgMTQzLjI0MS0xMjUuMTk0IDcyLjA4NGMyLjA1MyAzLjcxMSA1LjE2OSA2LjgxMyA5LjM4NiA5LjI1NCAyMC4yMDYgMTEuNzAzIDg4LjAyIDUwLjU0NyAxMDEuNTYgNTguNTM2IDkuMTA2IDUuMzczIDE3Ljk5NyA1LjU2NSAyNy4xNy4yNyAzNC4wMTUtMTkuNjQgNjguMDc1LTM5LjE5OSAxMDIuMTA1LTU4LjgxOCA0LjIxNy0yLjQ0IDcuMzMzLTUuNTQ0IDkuMzg2LTkuMjUyeiIvPjx0ZXh0IHg9IjE1MCIgeT0iMjAwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjE4MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiPkMjPC90ZXh0Pjwvc3ZnPg%3d%3d&logoColor=white" alt="C#" />
     <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java" />
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -49,7 +49,7 @@
     <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" />
     <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css&logoColor=white" alt="CSS" />
     <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind" />
   </p>
 
@@ -58,7 +58,7 @@
     <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" alt="Postgres" />
     <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" alt="Firebase" />
     <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white" alt="GCP" />
-    <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white" alt="Azure" />
+    <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOS44NjcgNy4yODJsLTQuNzMzIDkuNTMzIDguMzMzIDkuNjZMOCAyOC4yM2wyNCAuMjV6bS0uOTM0LTMuNzYyTDguMDY3IDEyLjYxMyAwIDI2LjIyM2w2Ljg2Ny0uN3oiLz48L3N2Zz4=&logoColor=white" alt="Azure" />
   </p>
 
   <p><b>Tools & Systems</b></p>
