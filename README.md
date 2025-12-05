@@ -15,13 +15,7 @@
 
   <!-- Stats & Top Languages Side-by-Side -->
   <p align="center">
-    <a href="https://github.com/vikingnope">
-      <img src="assets/stats.svg?v=1" alt="Aiden's GitHub Stats" width="48%" />
-    </a>
-    &nbsp;
-    <a href="https://github.com/vikingnope">
-      <img src="assets/top-langs.svg?v=1" alt="Top Languages" width="48%" />
-    </a>
+    <a href="https://github.com/vikingnope"><img src="assets/stats.svg?v=1" alt="Aiden's GitHub Stats" width="48%" /></a>&nbsp;<a href="https://github.com/vikingnope"><img src="assets/top-langs.svg?v=1" alt="Top Languages" width="48%" /></a>
   </p>
 </div>
 
