@@ -90,18 +90,18 @@ const StatsCard = ({ data }) => {
   const rank = calculateRank(data);
   
   return `
-    <svg width="450" height="195" viewBox="0 0 450 195" xmlns="http://www.w3.org/2000/svg">
+    <svg width="450" height="215" viewBox="0 0 450 215" xmlns="http://www.w3.org/2000/svg">
       <style>${CardStyles}</style>
       
-      <rect x="2" y="2" rx="10" height="190" width="446" class="card-bg" />
+      <rect x="2" y="2" rx="10" height="211" width="446" class="card-bg" />
       
       <text x="25" y="35" class="header">@${process.env.GITHUB_USERNAME}'s Stats</text>
 
       ${StatRow({ icon: '⭐', label: 'Total Stars', value: totalStars, y: 70 })}
-      ${StatRow({ icon: '🔄', label: 'Total Commits', value: totalCommits, y: 95 })}
-      ${StatRow({ icon: '🔀', label: 'Pull Requests', value: totalPRs, y: 120 })}
-      ${StatRow({ icon: '🐛', label: 'Issues', value: totalIssues, y: 145 })}
-      ${StatRow({ icon: '👥', label: 'Followers', value: followers, y: 170 })}
+      ${StatRow({ icon: '🔄', label: 'Total Commits', value: totalCommits, y: 100 })}
+      ${StatRow({ icon: '🔀', label: 'Pull Requests', value: totalPRs, y: 130 })}
+      ${StatRow({ icon: '🐛', label: 'Issues', value: totalIssues, y: 160 })}
+      ${StatRow({ icon: '👥', label: 'Followers', value: followers, y: 190 })}
 
       ${RankCircle({ rank })} 
     </svg>
@@ -146,9 +146,9 @@ const CreateButton = ({ icon, label, color }) => {
 
 const TopLangsCard = ({ langs }) => {
   return `
-    <svg width="450" height="210" viewBox="0 0 450 210" xmlns="http://www.w3.org/2000/svg">
+    <svg width="450" height="215" viewBox="0 0 450 215" xmlns="http://www.w3.org/2000/svg">
       <style>${CardStyles}</style>
-      <rect x="2" y="2" rx="10" height="206" width="446" class="card-bg" />
+      <rect x="2" y="2" rx="10" height="211" width="446" class="card-bg" />
       <text x="25" y="35" class="header">Top Languages</text>
       
       ${langs.slice(0, 6).map((lang, i) => {
