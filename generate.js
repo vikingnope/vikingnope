@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 // --- 1. RANK CALCULATION (Mimicking the official repo) ---
 function calculateRank({ totalStars, totalCommits, totalPRs, totalIssues, contributions, followers }) {
@@ -270,27 +271,30 @@ async function fetchStats() {
 (async () => {
   try {
     console.log("Generating Buttons...");
+    const OUTPUT_DIR = 'assets';
+    if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR);
+
     // Rustic Theme Colors: Background #1c1917 is default from class 'card-bg'
     // Text Color: #e8e4dc (Bone) or #d4a373 (Sand)
-    fs.writeFileSync('button-bmc.svg', CreateButton({ icon: '☕', label: 'Buy me a coffee', color: '#e8e4dc' }));
-    fs.writeFileSync('button-paypal.svg', CreateButton({ icon: 'P', label: 'PayPal', color: '#e8e4dc' }));
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'button-bmc.svg'), CreateButton({ icon: '☕', label: 'Buy me a coffee', color: '#e8e4dc' }));
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'button-paypal.svg'), CreateButton({ icon: 'P', label: 'PayPal', color: '#e8e4dc' }));
     
     console.log("Fetching data...");
     const data = await fetchStats();
     
     console.log("Generating SVG...");
     const svg = StatsCard({ data }); 
-    fs.writeFileSync('stats.svg', svg);
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'stats.svg'), svg);
     
     console.log("Generating Top Repos SVG...");
     const topReposSvg = TopReposCard({ repos: data.topRepos });
-    fs.writeFileSync('top-repos.svg', topReposSvg);
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'top-repos.svg'), topReposSvg);
 
     console.log("Generating Top Langs SVG...");
     const topLangsSvg = TopLangsCard({ langs: data.topLangs });
-    fs.writeFileSync('top-langs.svg', topLangsSvg);
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'top-langs.svg'), topLangsSvg);
     
-    console.log("Done! Created stats.svg, top-repos.svg, top-langs.svg, and buttons.");
+    console.log("Done! Created assets/stats.svg, assets/top-repos.svg, assets/top-langs.svg, and buttons.");
   } catch (err) {
     console.error(err);
     process.exit(1);
