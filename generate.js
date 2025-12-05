@@ -142,6 +142,29 @@ const CreateButton = ({ icon, label, color }) => {
   `;
 };
 
+
+const TopLangsCard = ({ langs }) => {
+  return `
+    <svg width="450" height="210" viewBox="0 0 450 210" xmlns="http://www.w3.org/2000/svg">
+      <style>${CardStyles}</style>
+      <rect x="2" y="2" rx="10" height="206" width="446" class="card-bg" />
+      <text x="25" y="35" class="header">Top Languages</text>
+      
+      ${langs.slice(0, 6).map((lang, i) => {
+        const y = 65 + i * 24;
+        return `
+          <g transform="translate(25, ${y})">
+            <text x="0" y="10" class="label" style="fill: #e8e4dc; font-size: 13px; font-weight: 600;">${lang.name}</text>
+            <rect x="100" y="2" width="240" height="8" rx="4" fill="#2d2b28" />
+            <rect x="100" y="2" width="${Math.max(240 * (lang.percent / 100), 10)}" height="8" rx="4" fill="${lang.color}" />
+            <text x="355" y="10" class="stat" style="font-size: 12px;">${lang.percent.toFixed(1)}%</text>
+          </g>
+        `;
+      }).join('')}
+    </svg>
+  `;
+};
+
 // --- 3. DATA FETCHING ---
 
 async function fetchStats() {
@@ -162,6 +185,15 @@ async function fetchStats() {
             primaryLanguage {
               name
               color
+            }
+            languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+              edges {
+                size
+                node {
+                  name
+                  color
+                }
+              }
             }
           }
         }
@@ -200,6 +232,27 @@ async function fetchStats() {
   // Sort repos by stars
   const sortedRepos = user.repositories.nodes.sort((a, b) => b.stargazers.totalCount - a.stargazers.totalCount).slice(0, 5);
 
+  // Aggregate Languages
+  const langMap = {};
+  let totalSize = 0;
+
+  user.repositories.nodes.forEach(repo => {
+    if (repo.languages && repo.languages.edges) {
+      repo.languages.edges.forEach(edge => {
+        const { size, node } = edge;
+        if (!langMap[node.name]) {
+          langMap[node.name] = { name: node.name, color: node.color, size: 0 };
+        }
+        langMap[node.name].size += size;
+        totalSize += size;
+      });
+    }
+  });
+
+  const sortedLangs = Object.values(langMap)
+    .sort((a, b) => b.size - a.size)
+    .map(lang => ({ ...lang, percent: (lang.size / totalSize) * 100 }));
+
   return {
     totalStars,
     totalCommits: user.contributionsCollection.totalCommitContributions,
@@ -207,7 +260,8 @@ async function fetchStats() {
     totalIssues: user.contributionsCollection.totalIssueContributions,
     contributions: user.contributionsCollection.totalRepositoryContributions,
     followers: user.followers.totalCount,
-    topRepos: sortedRepos
+    topRepos: sortedRepos,
+    topLangs: sortedLangs
   };
 }
 
@@ -231,11 +285,12 @@ async function fetchStats() {
     console.log("Generating Top Repos SVG...");
     const topReposSvg = TopReposCard({ repos: data.topRepos });
     fs.writeFileSync('top-repos.svg', topReposSvg);
+
+    console.log("Generating Top Langs SVG...");
+    const topLangsSvg = TopLangsCard({ langs: data.topLangs });
+    fs.writeFileSync('top-langs.svg', topLangsSvg);
     
-    /* Duplicate block removed */
-    
-    /* Duplicate block removed */
-    console.log("Done! Created stats.svg, top-repos.svg, and buttons.");
+    console.log("Done! Created stats.svg, top-repos.svg, top-langs.svg, and buttons.");
   } catch (err) {
     console.error(err);
     process.exit(1);

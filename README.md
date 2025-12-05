@@ -28,7 +28,7 @@
 
   <!-- Top Languages -->
   <a href="https://github.com/vikingnope">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vikingnope&layout=compact&langs_count=8&hide_border=true&bg_color=1c1917&title_color=d4a373&text_color=e8e4dc&icon_color=d4a373&locale=en&custom_title=Top%20Languages" alt="Top Languages" />
+    <img src="top-langs.svg" alt="Top Languages" width="480px" />
   </a>
 
 </div>
