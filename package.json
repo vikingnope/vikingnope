@@ -1,0 +1,9 @@
+{
+  "name": "my-stats-card",
+  "version": "1.0.0",
+  "description": "Generate SVG stats",
+  "main": "generate.js",
+  "dependencies": {
+    "dotenv": "^16.0.0" 
+  }
+}
