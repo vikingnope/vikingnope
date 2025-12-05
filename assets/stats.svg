@@ -1,5 +1,5 @@
 
-    <svg width="450" height="195" viewBox="0 0 450 195" xmlns="http://www.w3.org/2000/svg">
+    <svg width="450" height="215" viewBox="0 0 450 215" xmlns="http://www.w3.org/2000/svg">
       <style>
   .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #d4a373; }
   .stat { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e8e4dc; }
@@ -8,7 +8,7 @@
   .card-bg { fill: #1c1917; stroke: #44403c; stroke-width: 2px; }
 </style>
       
-      <rect x="2" y="2" rx="10" height="190" width="446" class="card-bg" />
+      <rect x="2" y="2" rx="10" height="211" width="446" class="card-bg" />
       
       <text x="25" y="35" class="header">@vikingnope's Stats</text>
 
@@ -20,28 +20,28 @@
     </g>
   
       
-    <g transform="translate(25, 95)">
+    <g transform="translate(25, 100)">
       <text class="label" x="25" y="0">Total Commits:</text>
-      <text class="stat" x="140" y="0">383</text>
+      <text class="stat" x="140" y="0">384</text>
       <text x="0" y="0" style="fill:#bc6c25; font-size: 14px;">🔄</text>
     </g>
   
       
-    <g transform="translate(25, 120)">
+    <g transform="translate(25, 130)">
       <text class="label" x="25" y="0">Pull Requests:</text>
       <text class="stat" x="140" y="0">280</text>
       <text x="0" y="0" style="fill:#bc6c25; font-size: 14px;">🔀</text>
     </g>
   
       
-    <g transform="translate(25, 145)">
+    <g transform="translate(25, 160)">
       <text class="label" x="25" y="0">Issues:</text>
       <text class="stat" x="140" y="0">63</text>
       <text x="0" y="0" style="fill:#bc6c25; font-size: 14px;">🐛</text>
     </g>
   
       
-    <g transform="translate(25, 170)">
+    <g transform="translate(25, 190)">
       <text class="label" x="25" y="0">Followers:</text>
       <text class="stat" x="140" y="0">6</text>
       <text x="0" y="0" style="fill:#bc6c25; font-size: 14px;">👥</text>
