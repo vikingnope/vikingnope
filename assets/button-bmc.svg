@@ -6,10 +6,17 @@
   .label { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a8a29e; }
   .rank-text { font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; dominant-baseline: central; }
   .card-bg { fill: #1c1917; stroke: #44403c; stroke-width: 2px; }
- .btn-text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e8e4dc; dominant-baseline: central; text-anchor: middle; }</style>
+ .btn-text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e8e4dc; dominant-baseline: central; }</style>
       <rect x="2" y="2" rx="8" height="46" width="196" class="card-bg" />
-      <text x="100" y="25" class="btn-text">
-        ☕ Buy me a coffee
+      
+      <g transform="translate(25, 13)">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="#e8e4dc">
+           <path d="M6.898 0L5.682 2.799H3.877v2.523h.695L5.277 9.8H4.172l1.46 8.23.938-.01L7.512 24h8.918l.062-.4.88-5.58.888.01 1.46-8.231h-1.056l.705-4.477h.756V2.8h-1.918L16.99 0H6.898zm.528.805h9.043l.019.066h.007l1.043 8.16h-1.57l-.547 4.145h1.378l-.683 4.331H7.859l-.68-4.331h1.383l-.55-4.145H6.445l1.043-8.16h.011zm1.758 13.926h2.89l.196 1.25h-3.282zm3.882 0h2.895l.192 1.25h-3.282z" />
+        </svg>
+      </g>
+      
+      <text x="60" y="25" class="btn-text">
+        Buy me a coffee
       </text>
     </svg>
   
