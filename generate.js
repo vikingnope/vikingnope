@@ -131,21 +131,20 @@ const TopReposCard = ({ repos }) => {
   `;
 };
 
-const CreateButton = ({ iconPath, label, color, iconViewBox = "0 0 24 24" }) => {
+const CreateButton = ({ iconPath, label, color, iconViewBox = "0 0 24 24", xOffset = 25 }) => {
   return `
     <svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
       <style>${CardStyles} .btn-text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${color}; dominant-baseline: central; }</style>
       <rect x="2" y="2" rx="8" height="46" width="196" class="card-bg" />
       
-      <g transform="translate(25, 13)">
+      <g transform="translate(${xOffset}, 13)">
         <svg width="24" height="24" viewBox="${iconViewBox}" fill="${color}">
            <path d="${iconPath}" />
         </svg>
+        <text x="34" y="12" class="btn-text">
+          ${label}
+        </text>
       </g>
-      
-      <text x="60" y="25" class="btn-text">
-        ${label}
-      </text>
     </svg>
   `;
 };

@@ -81,7 +81,7 @@
 
   <br><br>
 
-  <h3>☕ Support Me</h3>
+  <h3>💖 Support Me</h3>
 
   <p>
     <a href="https://www.buymeacoffee.com/vikingnope"><img src="assets/button-bmc.svg" height="50" alt="Buy Me A Coffee" /></a>&nbsp;&nbsp;<a href="https://www.paypal.com/donate/?hosted_button_id=4RJY7V64TUKHQ"><img src="assets/button-paypal.svg" height="50" alt="PayPal" /></a>
