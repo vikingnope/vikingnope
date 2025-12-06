@@ -14,22 +14,22 @@
           <g transform="translate(25, 65)">
             <text x="0" y="10" class="label" style="fill: #e8e4dc; font-size: 13px; font-weight: 600;">JavaScript</text>
             <rect x="100" y="2" width="240" height="8" rx="4" fill="#2d2b28" />
-            <rect x="100" y="2" width="196.9136770556747" height="8" rx="4" fill="#f1e05a" />
-            <text x="355" y="10" class="stat" style="font-size: 12px;">82.0%</text>
+            <rect x="100" y="2" width="197.22898666229904" height="8" rx="4" fill="#f1e05a" />
+            <text x="355" y="10" class="stat" style="font-size: 12px;">82.2%</text>
           </g>
         
           <g transform="translate(25, 89)">
             <text x="0" y="10" class="label" style="fill: #e8e4dc; font-size: 13px; font-weight: 600;">C</text>
             <rect x="100" y="2" width="240" height="8" rx="4" fill="#2d2b28" />
-            <rect x="100" y="2" width="30.90173959043846" height="8" rx="4" fill="#555555" />
-            <text x="355" y="10" class="stat" style="font-size: 12px;">12.9%</text>
+            <rect x="100" y="2" width="30.67559786637309" height="8" rx="4" fill="#555555" />
+            <text x="355" y="10" class="stat" style="font-size: 12px;">12.8%</text>
           </g>
         
           <g transform="translate(25, 113)">
             <text x="0" y="10" class="label" style="fill: #e8e4dc; font-size: 13px; font-weight: 600;">CSS</text>
             <rect x="100" y="2" width="240" height="8" rx="4" fill="#2d2b28" />
             <rect x="100" y="2" width="10" height="8" rx="4" fill="#663399" />
-            <text x="355" y="10" class="stat" style="font-size: 12px;">2.1%</text>
+            <text x="355" y="10" class="stat" style="font-size: 12px;">2.0%</text>
           </g>
         
           <g transform="translate(25, 137)">
