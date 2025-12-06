@@ -1,8 +1,8 @@
 <div align="center">
 
-  ![Header](assets/header.svg)
+  ![Header](assets/header.svg?v=1)
 
-  <img src="assets/intro.svg" alt="Intro Animation" />
+  <img src="assets/intro.svg?v=1" alt="Intro Animation" />
 
   <p>
     Based in Malta 🇲🇹
@@ -76,7 +76,7 @@
   <h3>🏆 Top Repositories</h3>
 
   <p>
-    <img src="assets/top-repos.svg" alt="Top Repositories" width="480px" />
+    <img src="assets/top-repos.svg?v=1" alt="Top Repositories" width="480px" />
   </p>
 
   <br><br>
@@ -84,7 +84,7 @@
   <h3>💖 Support Me</h3>
 
   <p>
-    <a href="https://www.buymeacoffee.com/vikingnope"><img src="assets/button-bmc.svg" height="50" alt="Buy Me A Coffee" /></a>&nbsp;&nbsp;<a href="https://www.paypal.com/donate/?hosted_button_id=4RJY7V64TUKHQ"><img src="assets/button-paypal.svg" height="50" alt="PayPal" /></a>
+    <a href="https://www.buymeacoffee.com/vikingnope"><img src="assets/button-bmc.svg?v=1" height="50" alt="Buy Me A Coffee" /></a>&nbsp;&nbsp;<a href="https://www.paypal.com/donate/?hosted_button_id=4RJY7V64TUKHQ"><img src="assets/button-paypal.svg?v=1" height="50" alt="PayPal" /></a>
   </p>
 
 </div>
