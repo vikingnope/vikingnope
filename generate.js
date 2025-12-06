@@ -181,14 +181,14 @@ const HeaderSvg = () => {
     return `
       <svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+          <linearGradient id="header-grad" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" style="stop-color:#292524;stop-opacity:1" />
             <stop offset="100%" style="stop-color:#1c1917;stop-opacity:1" />
           </linearGradient>
         </defs>
         
         <!-- Background -->
-        <rect width="800" height="300" fill="url(#grad1)" />
+        <rect width="800" height="300" fill="url(#header-grad)" />
         
         <!-- Wave Accent (Terra Cotta) -->
         <path d="M0,220 C200,300 600,180 800,260 L800,300 L0,300 Z" fill="#bc6c25" opacity="0.8" />
@@ -215,7 +215,7 @@ const HeaderSvg = () => {
           PHYSICS STUDENT & SOFTWARE DEVELOPER
         </text>
       </svg>
-    `;
+    `.trim();
 };
 
 const TypingSvg = () => {
@@ -278,7 +278,7 @@ const TypingSvg = () => {
              <!-- We'd need a moving cursor for true typing style, but centered fading text is also very clean "Apple style" -->
         </g>
       </svg>
-    `;
+    `.trim();
 };
 
 // --- 3. DATA FETCHING ---
