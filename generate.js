@@ -212,7 +212,7 @@ const HeaderSvg = () => {
               fill="#a8a29e" 
               text-anchor="middle"
               letter-spacing="2">
-          PHYSICS STUDENT & SOFTWARE DEVELOPER
+          PHYSICS STUDENT &amp; SOFTWARE DEVELOPER
         </text>
       </svg>
     `.trim();
