@@ -168,33 +168,53 @@ const TopLangsCard = ({ langs }) => {
 
 
 const HeaderSvg = () => {
-    // Unique ID suffix to prevent collision if used multiple times (simple random)
-    const id = Math.random().toString(36).substr(2, 9);
-    
-    return `
-      <svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
-    // A clean, transparent header with just the name and a typing reveal effect.
-    // We use a clipPath to reveal the text from left to right.
-    
     return `
       <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
         <defs>
-            <rect x="0" y="0" width="0" height="50">
-              <animate attributeName="width" from="0" to="800" dur="3s" begin="1.5s" fill="freeze" calcMode="discrete" keyTimes="0;1" values="0;800" />
-              <!-- calcMode discrete is bad for smooth, let's use spline or linear -->
-              <animate attributeName="width" from="0" to="520" dur="2s" begin="1.5s" fill="freeze" /> 
+          <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#e8e4dc;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#d4a373;stop-opacity:1" />
+          </linearGradient>
+          
+          <clipPath id="reveal">
+            <rect x="0" y="0" width="0" height="200">
+               <animate attributeName="width" from="0" to="800" dur="2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.42 0 0.58 1" />
             </rect>
           </clipPath>
+          
+          <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
         </defs>
         
-        <!-- We'll center the text group -->
-        <g transform="translate(400, 180)">
-           <!-- Center align logic implies we start text at -width/2. Approx width 450px -> -225 -->
-           <text x="0" y="0" text-anchor="middle" class="sub-text" opacity="0">
-             PHYSICS STUDENT &amp; SOFTWARE DEVELOPER
-             <!-- Reveal animation via opacity is easier than width clip for centered text -->
-             <animate attributeName="opacity" from="0" to="1" dur="2s" begin="1.5s" fill="freeze" />
-           </text>
+        <style>
+          .name { 
+            font: 800 70px 'Segoe UI', Ubuntu, Sans-Serif; 
+            fill: url(#text-grad); 
+            text-anchor: middle; 
+            dominant-baseline: middle;
+            filter: url(#glow);
+          }
+          .cursor {
+            font: 800 70px 'Segoe UI', Ubuntu, Sans-Serif; 
+            fill: #bc6c25; 
+            animation: blink 1s step-end infinite;
+            opacity: 0;
+            animation-delay: 2s; /* Start blinking after type finishes? or just appear */
+          }
+          @keyframes blink {
+            from, to { opacity: 1; }
+            50% { opacity: 0; }
+          }
+        </style>
+
+        <!-- Centered Text with Reveal Mask -->
+        <g clip-path="url(#reveal)">
+             <text x="400" y="100" class="name">Aiden Schembri</text>
         </g>
         
       </svg>
