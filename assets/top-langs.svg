@@ -14,14 +14,14 @@
           <g transform="translate(25, 65)">
             <text x="0" y="10" class="label" style="fill: #e8e4dc; font-size: 13px; font-weight: 600;">JavaScript</text>
             <rect x="100" y="2" width="240" height="8" rx="4" fill="#2d2b28" />
-            <rect x="100" y="2" width="197.22898666229904" height="8" rx="4" fill="#f1e05a" />
+            <rect x="100" y="2" width="197.22869777973648" height="8" rx="4" fill="#f1e05a" />
             <text x="355" y="10" class="stat" style="font-size: 12px;">82.2%</text>
           </g>
         
           <g transform="translate(25, 89)">
             <text x="0" y="10" class="label" style="fill: #e8e4dc; font-size: 13px; font-weight: 600;">C</text>
             <rect x="100" y="2" width="240" height="8" rx="4" fill="#2d2b28" />
-            <rect x="100" y="2" width="30.67559786637309" height="8" rx="4" fill="#555555" />
+            <rect x="100" y="2" width="30.675805054480797" height="8" rx="4" fill="#555555" />
             <text x="355" y="10" class="stat" style="font-size: 12px;">12.8%</text>
           </g>
         
