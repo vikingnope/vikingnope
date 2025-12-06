@@ -173,71 +173,12 @@ const HeaderSvg = () => {
     
     return `
       <svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
-        <style>
-          .header-text { font: 800 60px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e8e4dc; opacity: 0; animation: fadeUp 1s ease-out forwards; animation-delay: 0.5s; }
-          .sub-text { font: 400 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a8a29e; letter-spacing: 4px; }
-          
-          /* Typing Animation */
-          .typing-wrapper {
-            font-family: 'Segoe UI', Ubuntu, Sans-Serif;
-            font-size: 24px;
-            fill: #a8a29e;
-            display: flex; /* Not supported in SVG 1.1, but often ignored harmlessly */
-          }
-          .typing-text {
-            overflow: hidden;
-            border-right: 2px solid #bc6c25; /* cursor */
-            white-space: nowrap;
-            width: 0;
-            animation: 
-              typing 3s steps(40, end) forwards,
-              blink 0.75s step-end infinite;
-            animation-delay: 1.5s; /* Start after title fades in */
-          }
-          
-          /* Keyframes */
-          @keyframes fadeUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-          }
-          @keyframes typing {
-            from { width: 0; }
-            to { width: 100%; border-right-color: transparent; } /* End with no cursor */
-          }
-          @keyframes blink {
-            from, to { border-color: transparent; }
-            50% { border-color: #bc6c25; }
-          }
-          
-          /* Wave Animations */
-          .wave { animation: drift 20s infinite linear; }
-          
-          @keyframes drift {
-            from { transform: translateX(0); }
-            to { transform: translateX(-400px); }
-          }
-        </style>
-
-        <!-- No background rect = transparent -->
-        
-        <!-- Waves -->
-        <g transform="translate(0, 50)">
-             <path class="wave" fill="#d4a373" opacity="0.4" 
-                   d="M0,220 Q200,180 400,220 T800,220 T1200,220 V300 H0 Z" />
-             <path class="wave" fill="#bc6c25" opacity="0.6" 
-                   d="M0,240 Q150,280 300,240 T600,240 T900,240 V300 H0 Z" 
-                   style="animation-direction: reverse; animation-duration: 25s;" />
-        </g>
-        
-        <!-- Main Text -->
-        <text x="50%" y="130" text-anchor="middle" class="header-text">Aiden Schembri</text>
-        
-        <!-- Subtitle with Typing Effect -->
-        <!-- SVG does not support auto-width for typing well. We use a mask or simple width trick. -->
-        <!-- A better SVG typing trick: animate the clip-path of the text. -->
-        
+    // A clean, transparent header with just the name and a typing reveal effect.
+    // We use a clipPath to reveal the text from left to right.
+    
+    return `
+      <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <clipPath id="clip-${id}">
             <rect x="0" y="0" width="0" height="50">
               <animate attributeName="width" from="0" to="800" dur="3s" begin="1.5s" fill="freeze" calcMode="discrete" keyTimes="0;1" values="0;800" />
               <!-- calcMode discrete is bad for smooth, let's use spline or linear -->
