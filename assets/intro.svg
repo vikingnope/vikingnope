@@ -1,5 +1,4 @@
-
-      <svg width="500" height="50" viewBox="0 0 500 50" xmlns="http://www.w3.org/2000/svg">
+<svg width="500" height="50" viewBox="0 0 500 50" xmlns="http://www.w3.org/2000/svg">
         <style>
           text { font-family: 'Fira Code', monospace; font-size: 24px; fill: #bc6c25; font-weight: bold; }
           
@@ -54,4 +53,3 @@
              <!-- We'd need a moving cursor for true typing style, but centered fading text is also very clean "Apple style" -->
         </g>
       </svg>
-    
