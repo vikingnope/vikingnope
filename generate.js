@@ -394,6 +394,12 @@ async function fetchStats() {
     fs.writeFileSync(path.join(OUTPUT_DIR, 'button-bmc.svg'), CreateButton({ icon: '☕', label: 'Buy me a coffee', color: '#e8e4dc' }));
     fs.writeFileSync(path.join(OUTPUT_DIR, 'button-paypal.svg'), CreateButton({ icon: 'P', label: 'PayPal', color: '#e8e4dc' }));
     
+    console.log("Generating Header SVG...");
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'header.svg'), HeaderSvg());
+    
+    console.log("Generating Intro SVG...");
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'intro.svg'), TypingSvg());
+
     console.log("Fetching data...");
     const data = await fetchStats();
     
@@ -409,12 +415,6 @@ async function fetchStats() {
     const topLangsSvg = TopLangsCard({ langs: data.topLangs });
     fs.writeFileSync(path.join(OUTPUT_DIR, 'top-langs.svg'), topLangsSvg);
 
-    console.log("Generating Header SVG...");
-    fs.writeFileSync(path.join(OUTPUT_DIR, 'header.svg'), HeaderSvg());
-    
-    console.log("Generating Intro SVG...");
-    fs.writeFileSync(path.join(OUTPUT_DIR, 'intro.svg'), TypingSvg());
-    
     console.log("Done! Created assets/stats.svg, assets/top-repos.svg, assets/top-langs.svg, and buttons.");
   } catch (err) {
     console.error(err);
