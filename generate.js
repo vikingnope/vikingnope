@@ -168,60 +168,94 @@ const TopLangsCard = ({ langs }) => {
 
 
 const HeaderSvg = () => {
-    // Shared Colors from CardStyles
-    // bg: #1c1917, border: #44403c, accent1: #bc6c25, accent2: #d4a373, text: #e8e4dc
-    
-    // Wave animation: Slide the waves horizontally
-    // Text animation: Fade in the subtitle
+    // Unique ID suffix to prevent collision if used multiple times (simple random)
+    const id = Math.random().toString(36).substr(2, 9);
     
     return `
       <svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
         <style>
-          .card-bg { fill: #1c1917; stroke: #44403c; stroke-width: 2px; }
-          .main-text { font: 700 60px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e8e4dc; text-anchor: middle; }
-          .sub-text { font: 400 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a8a29e; text-anchor: middle; letter-spacing: 4px; opacity: 0; animation: fadeIn 2s ease-out forwards; animation-delay: 1s; }
+          .header-text { font: 800 60px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e8e4dc; opacity: 0; animation: fadeUp 1s ease-out forwards; animation-delay: 0.5s; }
+          .sub-text { font: 400 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a8a29e; letter-spacing: 4px; }
           
-          .wave { animation: drift 20s infinite linear; }
-          .wave-slow { animation: drift 30s infinite linear; }
+          /* Typing Animation */
+          .typing-wrapper {
+            font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+            font-size: 24px;
+            fill: #a8a29e;
+            display: flex; /* Not supported in SVG 1.1, but often ignored harmlessly */
+          }
+          .typing-text {
+            overflow: hidden;
+            border-right: 2px solid #bc6c25; /* cursor */
+            white-space: nowrap;
+            width: 0;
+            animation: 
+              typing 3s steps(40, end) forwards,
+              blink 0.75s step-end infinite;
+            animation-delay: 1.5s; /* Start after title fades in */
+          }
           
-          @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
+          /* Keyframes */
+          @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
           }
+          @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; border-right-color: transparent; } /* End with no cursor */
+          }
+          @keyframes blink {
+            from, to { border-color: transparent; }
+            50% { border-color: #bc6c25; }
+          }
+          
+          /* Wave Animations */
+          .wave { animation: drift 20s infinite linear; }
           
           @keyframes drift {
             from { transform: translateX(0); }
             to { transform: translateX(-400px); }
           }
         </style>
-        
-        <!-- Background Card -->
-        <rect x="2" y="2" rx="10" width="796" height="296" class="card-bg" />
-        
-        <!-- Clipping Mask for Waves (so they don't spill out of the rounded corners) -->
-        <defs>
-          <clipPath id="card-clip">
-            <rect x="2" y="2" rx="10" width="796" height="296" />
-          </clipPath>
-        </defs>
 
-        <g clip-path="url(#card-clip)">
-          <!-- Waves -->
-          <!-- We draw a very long wave pattern and slide it -->
-          <!-- Path width needs to be enough to loop. 800 width, so maybe 1600 wide path. -->
-          <g transform="translate(0, 50)">
-             <path class="wave-slow" fill="#d4a373" opacity="0.4" 
+        <!-- No background rect = transparent -->
+        
+        <!-- Waves -->
+        <g transform="translate(0, 50)">
+             <path class="wave" fill="#d4a373" opacity="0.4" 
                    d="M0,220 Q200,180 400,220 T800,220 T1200,220 V300 H0 Z" />
              <path class="wave" fill="#bc6c25" opacity="0.6" 
-                   d="M0,240 Q150,280 300,240 T600,240 T900,240 V300 H0 Z" />
-          </g>
+                   d="M0,240 Q150,280 300,240 T600,240 T900,240 V300 H0 Z" 
+                   style="animation-direction: reverse; animation-duration: 25s;" />
         </g>
         
         <!-- Main Text -->
-        <text x="400" y="130" class="main-text">Aiden Schembri</text>
+        <text x="50%" y="130" text-anchor="middle" class="header-text">Aiden Schembri</text>
         
-        <!-- Subtitle -->
-        <text x="400" y="180" class="sub-text">PHYSICS STUDENT &amp; SOFTWARE DEVELOPER</text>
+        <!-- Subtitle with Typing Effect -->
+        <!-- SVG does not support auto-width for typing well. We use a mask or simple width trick. -->
+        <!-- A better SVG typing trick: animate the clip-path of the text. -->
+        
+        <defs>
+          <clipPath id="clip-${id}">
+            <rect x="0" y="0" width="0" height="50">
+              <animate attributeName="width" from="0" to="800" dur="3s" begin="1.5s" fill="freeze" calcMode="discrete" keyTimes="0;1" values="0;800" />
+              <!-- calcMode discrete is bad for smooth, let's use spline or linear -->
+              <animate attributeName="width" from="0" to="520" dur="2s" begin="1.5s" fill="freeze" /> 
+            </rect>
+          </clipPath>
+        </defs>
+        
+        <!-- We'll center the text group -->
+        <g transform="translate(400, 180)">
+           <!-- Center align logic implies we start text at -width/2. Approx width 450px -> -225 -->
+           <text x="0" y="0" text-anchor="middle" class="sub-text" opacity="0">
+             PHYSICS STUDENT &amp; SOFTWARE DEVELOPER
+             <!-- Reveal animation via opacity is easier than width clip for centered text -->
+             <animate attributeName="opacity" from="0" to="1" dur="2s" begin="1.5s" fill="freeze" />
+           </text>
+        </g>
+        
       </svg>
     `.trim();
 };
