@@ -168,52 +168,60 @@ const TopLangsCard = ({ langs }) => {
 
 
 const HeaderSvg = () => {
-    // Rustic Palette
-    const bg = "#1c1917";
-    const text = "#e8e4dc";
+    // Shared Colors from CardStyles
+    // bg: #1c1917, border: #44403c, accent1: #bc6c25, accent2: #d4a373, text: #e8e4dc
     
-    // Simple wave path for bottom
-    const wavePath = "M0,160 C150,260 300,60 450,160 L450,00 L0,0 Z"; // Simplified wave
-    
-    // We want a full width banner-like feel, typically 800-1000px wide for READMEs, 
-    // but GitHub scales images. Let's make it 800x300.
+    // Wave animation: Slide the waves horizontally
+    // Text animation: Fade in the subtitle
     
     return `
       <svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+        <style>
+          .card-bg { fill: #1c1917; stroke: #44403c; stroke-width: 2px; }
+          .main-text { font: 700 60px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e8e4dc; text-anchor: middle; }
+          .sub-text { font: 400 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a8a29e; text-anchor: middle; letter-spacing: 4px; opacity: 0; animation: fadeIn 2s ease-out forwards; animation-delay: 1s; }
+          
+          .wave { animation: drift 20s infinite linear; }
+          .wave-slow { animation: drift 30s infinite linear; }
+          
+          @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          
+          @keyframes drift {
+            from { transform: translateX(0); }
+            to { transform: translateX(-400px); }
+          }
+        </style>
+        
+        <!-- Background Card -->
+        <rect x="2" y="2" rx="10" width="796" height="296" class="card-bg" />
+        
+        <!-- Clipping Mask for Waves (so they don't spill out of the rounded corners) -->
         <defs>
-          <linearGradient id="header-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#292524;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#1c1917;stop-opacity:1" />
-          </linearGradient>
+          <clipPath id="card-clip">
+            <rect x="2" y="2" rx="10" width="796" height="296" />
+          </clipPath>
         </defs>
-        
-        <!-- Background -->
-        <rect width="800" height="300" fill="url(#header-grad)" />
-        
-        <!-- Wave Accent (Terra Cotta) -->
-        <path d="M0,220 C200,300 600,180 800,260 L800,300 L0,300 Z" fill="#bc6c25" opacity="0.8" />
-        <path d="M0,250 C300,320 500,200 800,280 L800,300 L0,300 Z" fill="#d4a373" opacity="0.6" />
+
+        <g clip-path="url(#card-clip)">
+          <!-- Waves -->
+          <!-- We draw a very long wave pattern and slide it -->
+          <!-- Path width needs to be enough to loop. 800 width, so maybe 1600 wide path. -->
+          <g transform="translate(0, 50)">
+             <path class="wave-slow" fill="#d4a373" opacity="0.4" 
+                   d="M0,220 Q200,180 400,220 T800,220 T1200,220 V300 H0 Z" />
+             <path class="wave" fill="#bc6c25" opacity="0.6" 
+                   d="M0,240 Q150,280 300,240 T600,240 T900,240 V300 H0 Z" />
+          </g>
+        </g>
         
         <!-- Main Text -->
-        <text x="400" y="130" 
-              font-family="'Segoe UI', Ubuntu, Sans-Serif" 
-              font-weight="bold" 
-              font-size="60" 
-              fill="${text}" 
-              text-anchor="middle">
-          Aiden Schembri
-        </text>
+        <text x="400" y="130" class="main-text">Aiden Schembri</text>
         
         <!-- Subtitle -->
-         <text x="400" y="180" 
-              font-family="'Segoe UI', Ubuntu, Sans-Serif" 
-              font-weight="400" 
-              font-size="24" 
-              fill="#a8a29e" 
-              text-anchor="middle"
-              letter-spacing="2">
-          PHYSICS STUDENT &amp; SOFTWARE DEVELOPER
-        </text>
+        <text x="400" y="180" class="sub-text">PHYSICS STUDENT &amp; SOFTWARE DEVELOPER</text>
       </svg>
     `.trim();
 };
