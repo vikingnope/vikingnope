@@ -1,10 +1,11 @@
 <div align="center">
 
-  <h1>Hi <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="30px"> My name is Aiden</h1>
+  ![Header](assets/header.svg)
+
+  <img src="assets/intro.svg" alt="Intro Animation" />
 
   <p>
-    <b>University Student and Former Junior Software Developer</b><br>
-    Based in Malta 🇲🇹 • Majoring in Physics
+    Based in Malta 🇲🇹
   </p>
 
   <p>
@@ -17,56 +18,57 @@
   <p align="center">
     <a href="https://github.com/vikingnope"><img src="assets/stats.svg?v=1" alt="Aiden's GitHub Stats" width="48%" /></a>&nbsp;<a href="https://github.com/vikingnope"><img src="assets/top-langs.svg?v=1" alt="Top Languages" width="48%" /></a>
   </p>
-</div>
 
-<br>
+  <br>
 
-## 🚀 About Me
+  <h3>🚀 About Me</h3>
 
-- 🔭 I'm currently working on [Worther](https://worther.vercel.app/), and with both the [Horizon Simulations](https://github.com/Horizon-Simulations) team and the [Lunar Simulations](https://lunar-simulations.github.io/) team developing aircraft for Microsoft Flight Simulator.
-- 🌱 I'm currently learning **Rust**.
-- ⚡ **Hobbies**: Coding, Football, Gaming, Aviation, Flight Simulation, Rockets and Space.
+  <p>
+    🔭 I'm currently working on <a href="https://worther.vercel.app/">Worther</a>, and with both the <a href="https://github.com/Horizon-Simulations">Horizon Simulations</a> team and the <a href="https://lunar-simulations.github.io/">Lunar Simulations</a> team developing aircraft for Microsoft Flight Simulator.<br>
+    🌱 I'm currently learning <b>Rust</b>.<br>
+    ⚡ <b>Hobbies</b>: Coding, Football, Gaming, Aviation, Flight Simulation, Rockets and Space.
+  </p>
 
-<br>
+  <br>
 
-<div align="center">
+
   
   <h3>🛠️ Skills</h3>
 
   <p><b>Languages</b></p>
   <p>
-    <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" alt="C" />
-    <img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiBmaWxsPSJ3aGl0ZSI%2bPHBhdGggZD0iTTEyOC4xODIgMTQzLjI0MS0xMjUuMTk0IDcyLjA4NGMyLjA1MyAzLjcxMSA1LjE2OSA2LjgxMyA5LjM4NiA5LjI1NCAyMC4yMDYgMTEuNzAzIDg4LjAyIDUwLjU0NyAxMDEuNTYgNTguNTM2IDkuMTA2IDUuMzczIDE3Ljk5NyA1LjU2NSAyNy4xNy4yNyAzNC4wMTUtMTkuNjQgNjguMDc1LTM5LjE5OSAxMDIuMTA1LTU4LjgxOCA0LjIxNy0yLjQ0IDcuMzMzLTUuNTQ0IDkuMzg2LTkuMjUyeiIvPjx0ZXh0IHg9IjE1MCIgeT0iMjAwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjE4MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiPkMjPC90ZXh0Pjwvc3ZnPg%3d%3d&logoColor=white" alt="C#" />
-    <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java" />
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust" />
-    <img src="https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white" alt="Bash" />
+    <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+    <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+    <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
   </p>
 
   <p><b>Frontend</b></p>
   <p>
-    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css&logoColor=white" alt="CSS" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
   </p>
 
   <p><b>Backend & Cloud</b></p>
   <p>
-    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" alt="Postgres" />
-    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" alt="Firebase" />
-    <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white" alt="GCP" />
-    <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOS44NjcgNy4yODJsLTQuNzMzIDkuNTMzIDguMzMzIDkuNjZMOCAyOC4yM2wyNCAuMjV6bS0uOTM0LTMuNzYyTDguMDY3IDEyLjYxMyAwIDI2LjIyM2w2Ljg2Ny0uN3oiLz48L3N2Zz4=&logoColor=white" alt="Azure" />
+    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres" />
+    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+    <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP" />
+    <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
   </p>
 
   <p><b>Tools & Systems</b></p>
   <p>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux" />
-    <img src="https://img.shields.io/badge/Vim-019733?style=flat&logo=vim&logoColor=white" alt="Vim" />
-    <img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white" alt="Arduino" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+    <img src="https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim" />
+    <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
   </p>
 
   <br>

@@ -166,6 +166,121 @@ const TopLangsCard = ({ langs }) => {
   `;
 };
 
+
+const HeaderSvg = () => {
+    // Rustic Palette
+    const bg = "#1c1917";
+    const text = "#e8e4dc";
+    
+    // Simple wave path for bottom
+    const wavePath = "M0,160 C150,260 300,60 450,160 L450,00 L0,0 Z"; // Simplified wave
+    
+    // We want a full width banner-like feel, typically 800-1000px wide for READMEs, 
+    // but GitHub scales images. Let's make it 800x300.
+    
+    return `
+      <svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#292524;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1c1917;stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        
+        <!-- Background -->
+        <rect width="800" height="300" fill="url(#grad1)" />
+        
+        <!-- Wave Accent (Terra Cotta) -->
+        <path d="M0,220 C200,300 600,180 800,260 L800,300 L0,300 Z" fill="#bc6c25" opacity="0.8" />
+        <path d="M0,250 C300,320 500,200 800,280 L800,300 L0,300 Z" fill="#d4a373" opacity="0.6" />
+        
+        <!-- Main Text -->
+        <text x="400" y="130" 
+              font-family="'Segoe UI', Ubuntu, Sans-Serif" 
+              font-weight="bold" 
+              font-size="60" 
+              fill="${text}" 
+              text-anchor="middle">
+          Aiden Schembri
+        </text>
+        
+        <!-- Subtitle -->
+         <text x="400" y="180" 
+              font-family="'Segoe UI', Ubuntu, Sans-Serif" 
+              font-weight="400" 
+              font-size="24" 
+              fill="#a8a29e" 
+              text-anchor="middle"
+              letter-spacing="2">
+          PHYSICS STUDENT & SOFTWARE DEVELOPER
+        </text>
+      </svg>
+    `;
+};
+
+const TypingSvg = () => {
+    // CSS Keyframe animation embedded in SVG
+    const width = 500;
+    const height = 50;
+    const color = "#358EF7"; // Blue from existing, or could utilize rustic #bc6c25
+    
+    // We will simulate typing by just changing the text content using CSS animation steps?
+    // Actually, widespread support for CSS content replacement in SVG is tricky.
+    // Better approach: Use multiple text elements and animate their opacity.
+    
+    const lines = [
+        "Physics Major",
+        "Software Developer",
+        "Aviation Enthusiast",
+        "Rust Learner"
+    ];
+    
+    const duration = 4; // seconds per line
+    const totalDuration = lines.length * duration;
+    
+    // Generate keyframes for each line to appear and disappear
+    let css = "";
+    lines.forEach((line, i) => {
+        const start = (i / lines.length) * 100;
+        const end = ((i + 1) / lines.length) * 100;
+        const fade = (0.5 / totalDuration) * 100; // short fade
+        
+        // simple toggle visibility
+        css += `
+        .line-${i} { animation: fade${i} ${totalDuration}s infinite; opacity: 0; }
+        @keyframes fade${i} {
+            0% { opacity: 0; }
+            ${start}% { opacity: 0; }
+            ${start + 1}% { opacity: 1; }
+            ${end - 1}% { opacity: 1; }
+            ${end}% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        `;
+    });
+    
+    // Typing cursor animation
+    css += `
+        .cursor { animation: blink 1s infinite; }
+        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
+    `;
+    
+    return `
+      <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
+        <style>
+          text { font-family: 'Fira Code', monospace; font-size: 24px; fill: #bc6c25; font-weight: bold; }
+          ${css}
+        </style>
+        
+        <!-- Centered Group -->
+        <g transform="translate(${width/2}, ${height/2})">
+             ${lines.map((line, i) => `<text class="line-${i}" text-anchor="middle" dominant-baseline="middle">${line}</text>`).join('')}
+             <!-- We'd need a moving cursor for true typing style, but centered fading text is also very clean "Apple style" -->
+        </g>
+      </svg>
+    `;
+};
+
 // --- 3. DATA FETCHING ---
 
 async function fetchStats() {
@@ -293,6 +408,12 @@ async function fetchStats() {
     console.log("Generating Top Langs SVG...");
     const topLangsSvg = TopLangsCard({ langs: data.topLangs });
     fs.writeFileSync(path.join(OUTPUT_DIR, 'top-langs.svg'), topLangsSvg);
+
+    console.log("Generating Header SVG...");
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'header.svg'), HeaderSvg());
+    
+    console.log("Generating Intro SVG...");
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'intro.svg'), TypingSvg());
     
     console.log("Done! Created assets/stats.svg, assets/top-repos.svg, assets/top-langs.svg, and buttons.");
   } catch (err) {
