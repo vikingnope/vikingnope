@@ -19,6 +19,14 @@
     </g>
   
     <g transform="translate(25, 117)">
+      <text x="0" y="0" class="stat" style="font-size: 14px; fill: #d4a373;">homebrew-fladder</text>
+      <text x="0" y="20" class="label" style="font-size: 11px; fill: #a8a29e;">Homebrew tap for Fladder</text>
+      <circle cx="280" cy="-4" r="5" fill="#701516" />
+      <text x="295" y="0" class="label">Ruby</text>
+      <text x="380" y="0" class="stat">⭐ 1</text>
+    </g>
+  
+    <g transform="translate(25, 159)">
       <text x="0" y="0" class="stat" style="font-size: 14px; fill: #d4a373;">vikingnope</text>
       <text x="0" y="20" class="label" style="font-size: 11px; fill: #a8a29e;">Readme file for profile</text>
       <circle cx="280" cy="-4" r="5" fill="#f1e05a" />
@@ -26,7 +34,7 @@
       <text x="380" y="0" class="stat">⭐ 0</text>
     </g>
   
-    <g transform="translate(25, 159)">
+    <g transform="translate(25, 201)">
       <text x="0" y="0" class="stat" style="font-size: 14px; fill: #d4a373;">C-Project</text>
       <text x="0" y="20" class="label" style="font-size: 11px; fill: #a8a29e;">University Assignment - CPS1011</text>
       <circle cx="280" cy="-4" r="5" fill="#555555" />
@@ -34,19 +42,11 @@
       <text x="380" y="0" class="stat">⭐ 0</text>
     </g>
   
-    <g transform="translate(25, 201)">
+    <g transform="translate(25, 243)">
       <text x="0" y="0" class="stat" style="font-size: 14px; fill: #d4a373;">LMML-MSFS</text>
       <text x="0" y="20" class="label" style="font-size: 11px; fill: #a8a29e;">LMML Malta International Airport for Microsoft Fli...</text>
       <circle cx="280" cy="-4" r="5" fill="#3572A5" />
       <text x="295" y="0" class="label">Python</text>
-      <text x="380" y="0" class="stat">⭐ 0</text>
-    </g>
-  
-    <g transform="translate(25, 243)">
-      <text x="0" y="0" class="stat" style="font-size: 14px; fill: #d4a373;">LMMG-MSFS</text>
-      <text x="0" y="20" class="label" style="font-size: 11px; fill: #a8a29e;">LMMG Xewkija Heliport Gozo for Microsoft Flight Si...</text>
-      <circle cx="280" cy="-4" r="5" fill="#ccc" />
-      <text x="295" y="0" class="label">N/A</text>
       <text x="380" y="0" class="stat">⭐ 0</text>
     </g>
   
