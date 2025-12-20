@@ -241,7 +241,6 @@ const TypingSvg = () => {
         "Physics Major",
         "Software Developer",
         "Aviation Enthusiast",
-        "Rust Learner"
     ];
     
     const duration = 4; // seconds per line

@@ -25,7 +25,7 @@
 
   <p>
     🔭 I'm currently working on <a href="https://worther.vercel.app/">Worther</a>, and with both the <a href="https://github.com/Horizon-Simulations">Horizon Simulations</a> team and the <a href="https://lunar-simulations.github.io/">Lunar Simulations</a> team developing aircraft for Microsoft Flight Simulator.<br>
-    🌱 I'm currently learning <b>Rust</b>.<br>
+    🌱 I'm currently learning <b>Zig</b>.<br>
     ⚡ <b>Hobbies</b>: Coding, Football, Gaming, Aviation, Flight Simulation, Rockets and Space.
   </p>
 
