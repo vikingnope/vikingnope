@@ -15,14 +15,14 @@
       
     <g transform="translate(25, 70)">
       <text class="label" x="25" y="0">Total Stars:</text>
-      <text class="stat" x="140" y="0">2</text>
+      <text class="stat" x="140" y="0">3</text>
       <text x="0" y="0" style="fill:#bc6c25; font-size: 14px;">⭐</text>
     </g>
   
       
     <g transform="translate(25, 100)">
       <text class="label" x="25" y="0">Total Commits:</text>
-      <text class="stat" x="140" y="0">436</text>
+      <text class="stat" x="140" y="0">446</text>
       <text x="0" y="0" style="fill:#bc6c25; font-size: 14px;">🔄</text>
     </g>
   
@@ -36,7 +36,7 @@
       
     <g transform="translate(25, 160)">
       <text class="label" x="25" y="0">Issues:</text>
-      <text class="stat" x="140" y="0">63</text>
+      <text class="stat" x="140" y="0">66</text>
       <text x="0" y="0" style="fill:#bc6c25; font-size: 14px;">🐛</text>
     </g>
   
