@@ -2,41 +2,31 @@
         <style>
           text { font-family: 'Fira Code', monospace; font-size: 24px; fill: #bc6c25; font-weight: bold; }
           
-        .line-0 { animation: fade0 16s infinite; opacity: 0; }
+        .line-0 { animation: fade0 12s infinite; opacity: 0; }
         @keyframes fade0 {
             0% { opacity: 0; }
             0% { opacity: 0; }
             1% { opacity: 1; }
-            24% { opacity: 1; }
-            25% { opacity: 0; }
+            32.33333333333333% { opacity: 1; }
+            33.33333333333333% { opacity: 0; }
             100% { opacity: 0; }
         }
         
-        .line-1 { animation: fade1 16s infinite; opacity: 0; }
+        .line-1 { animation: fade1 12s infinite; opacity: 0; }
         @keyframes fade1 {
             0% { opacity: 0; }
-            25% { opacity: 0; }
-            26% { opacity: 1; }
-            49% { opacity: 1; }
-            50% { opacity: 0; }
+            33.33333333333333% { opacity: 0; }
+            34.33333333333333% { opacity: 1; }
+            65.66666666666666% { opacity: 1; }
+            66.66666666666666% { opacity: 0; }
             100% { opacity: 0; }
         }
         
-        .line-2 { animation: fade2 16s infinite; opacity: 0; }
+        .line-2 { animation: fade2 12s infinite; opacity: 0; }
         @keyframes fade2 {
             0% { opacity: 0; }
-            50% { opacity: 0; }
-            51% { opacity: 1; }
-            74% { opacity: 1; }
-            75% { opacity: 0; }
-            100% { opacity: 0; }
-        }
-        
-        .line-3 { animation: fade3 16s infinite; opacity: 0; }
-        @keyframes fade3 {
-            0% { opacity: 0; }
-            75% { opacity: 0; }
-            76% { opacity: 1; }
+            66.66666666666666% { opacity: 0; }
+            67.66666666666666% { opacity: 1; }
             99% { opacity: 1; }
             100% { opacity: 0; }
             100% { opacity: 0; }
@@ -49,7 +39,7 @@
         
         <!-- Centered Group -->
         <g transform="translate(250, 25)">
-             <text class="line-0" text-anchor="middle" dominant-baseline="middle">Physics Major</text><text class="line-1" text-anchor="middle" dominant-baseline="middle">Software Developer</text><text class="line-2" text-anchor="middle" dominant-baseline="middle">Aviation Enthusiast</text><text class="line-3" text-anchor="middle" dominant-baseline="middle">Rust Learner</text>
+             <text class="line-0" text-anchor="middle" dominant-baseline="middle">Physics Major</text><text class="line-1" text-anchor="middle" dominant-baseline="middle">Software Developer</text><text class="line-2" text-anchor="middle" dominant-baseline="middle">Aviation Enthusiast</text>
              <!-- We'd need a moving cursor for true typing style, but centered fading text is also very clean "Apple style" -->
         </g>
       </svg>
