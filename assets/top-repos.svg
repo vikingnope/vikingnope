@@ -11,6 +11,14 @@
       <text x="25" y="35" class="header">Top Repositories</text>
       
     <g transform="translate(25, 75)">
+      <text x="0" y="0" class="stat" style="font-size: 14px; fill: #d4a373;">helium-browser-nix-flake</text>
+      <text x="0" y="20" class="label" style="font-size: 11px; fill: #a8a29e;">Nix Flake for Helium Browser</text>
+      <circle cx="280" cy="-4" r="5" fill="#7e7eff" />
+      <text x="295" y="0" class="label">Nix</text>
+      <text x="380" y="0" class="stat">⭐ 2</text>
+    </g>
+  
+    <g transform="translate(25, 117)">
       <text x="0" y="0" class="stat" style="font-size: 14px; fill: #d4a373;">worther</text>
       <text x="0" y="20" class="label" style="font-size: 11px; fill: #a8a29e;">Weather web application with real-time forecasts, ...</text>
       <circle cx="280" cy="-4" r="5" fill="#f1e05a" />
@@ -18,19 +26,11 @@
       <text x="380" y="0" class="stat">⭐ 1</text>
     </g>
   
-    <g transform="translate(25, 117)">
+    <g transform="translate(25, 159)">
       <text x="0" y="0" class="stat" style="font-size: 14px; fill: #d4a373;">homebrew-fladder</text>
       <text x="0" y="20" class="label" style="font-size: 11px; fill: #a8a29e;">Homebrew tap for Fladder</text>
       <circle cx="280" cy="-4" r="5" fill="#701516" />
       <text x="295" y="0" class="label">Ruby</text>
-      <text x="380" y="0" class="stat">⭐ 1</text>
-    </g>
-  
-    <g transform="translate(25, 159)">
-      <text x="0" y="0" class="stat" style="font-size: 14px; fill: #d4a373;">helium-browser-nix-flake</text>
-      <text x="0" y="20" class="label" style="font-size: 11px; fill: #a8a29e;">Nix Flake for Helium Browser</text>
-      <circle cx="280" cy="-4" r="5" fill="#7e7eff" />
-      <text x="295" y="0" class="label">Nix</text>
       <text x="380" y="0" class="stat">⭐ 1</text>
     </g>
   
