@@ -88,7 +88,7 @@
   <h3>💖 Support Me</h3>
 
   <p>
-    <a href="https://www.buymeacoffee.com/vikingnope"><img src="assets/button-bmc.svg?v=1" height="50" alt="Buy Me A Coffee" /></a>&nbsp;&nbsp;<a href="https://www.paypal.com/donate/?hosted_button_id=4RJY7V64TUKHQ"><img src="assets/button-paypal.svg?v=1" height="50" alt="PayPal" /></a>
+    <a href="https://www.buymeacoffee.com/schembriaiden"><img src="assets/button-bmc.svg?v=1" height="50" alt="Buy Me A Coffee" /></a>&nbsp;&nbsp;<a href="https://www.paypal.com/donate/?hosted_button_id=4RJY7V64TUKHQ"><img src="assets/button-paypal.svg?v=1" height="50" alt="PayPal" /></a>
   </p>
 
 </div>
