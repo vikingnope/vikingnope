@@ -62,6 +62,7 @@
     <a href="https://www.typescriptlang.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=typescript" alt="TypeScript" width="48" height="48" /></a>
     <a href="https://ziglang.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=zig" alt="Zig" width="48" height="48" /></a>
     <a href="https://www.gnu.org/software/bash/"><img src="https://go-skill-icons.vercel.app/api/icons?i=bash" alt="Bash" width="48" height="48" /></a>
+    <a href="https://www.latex-project.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=latex" alt="LaTeX" width="48" height="48" /></a>
   </p>
 
   **Frontend**
@@ -93,12 +94,21 @@
   
   <p>
     <a href="https://www.docker.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=docker" alt="Docker" width="48" height="48" /></a>
-    <a href="https://www.linux.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=linux" alt="Linux" width="48" height="48" /></a>
     <a href="https://www.vim.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=vim" alt="Vim" width="48" height="48" /></a>
     <a href="https://neovim.io"><img src="https://go-skill-icons.vercel.app/api/icons?i=neovim" alt="Neovim" width="48" height="48" /></a>
     <a href="https://helix-editor.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=helix" alt="Helix" width="48" height="48" /></a>
     <a href="https://git-scm.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=git" alt="Git" width="48" height="48" /></a>
     <a href="https://www.arduino.cc"><img src="https://go-skill-icons.vercel.app/api/icons?i=arduino" alt="Arduino" width="48" height="48" /></a>
+  </p>
+
+  **Operating Systems**
+  
+  <p>
+    <a href="https://nixos.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=nixos" alt="NixOS" width="48" height="48" /></a>
+    <a href="https://archlinux.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=arch" alt="Arch Linux" width="48" height="48" /></a>
+    <a href="https://www.raspberrypi.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=raspberrypi" alt="Raspberry Pi" width="48" height="48" /></a>
+    <a href="https://www.microsoft.com/windows"><img src="https://go-skill-icons.vercel.app/api/icons?i=windows" alt="Windows" width="48" height="48" /></a>
+    <a href="https://www.apple.com/macos"><img src="https://go-skill-icons.vercel.app/api/icons?i=macos" alt="macOS" width="48" height="48" /></a>
   </p>
 
   <br>
