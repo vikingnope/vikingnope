@@ -66,7 +66,7 @@ jobs:
 
       - name: Move metrics files and commit
         run: |
-          sudo mv /metrics_renders/* ./profile/
+          sudo mv /metrics_renders/profile/* ./profile/
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add profile/*.svg
