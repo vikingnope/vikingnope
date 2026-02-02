@@ -1,94 +1,109 @@
 <div align="center">
 
-  ![Header](assets/header.svg?v=1)
-
-  <img src="assets/intro.svg?v=1" alt="Intro Animation" />
-
-  <p>
-    Based in Malta 🇲🇹
-  </p>
-
-  <p>
-    <a href="https://discord.gg/SUr3YEgH6C" target="_blank"><img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>&nbsp;<a href="https://www.github.com/vikingnope" target="_blank"><img src="https://img.shields.io/badge/-GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github" /></a>&nbsp;<a href="https://www.linkedin.com/in/aiden-schembri-a8a057218/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSAwaC0xNGMtMi43NjEgMC01IDIuMjM5LTUgNXYxNGMwIDIuNzYxIDIuMjM5IDUgNSA1aDE0YzIuNzYyIDAgNS0yLjIzOSA1LTV2LTE0YzAtMi43NjEtMi4yMzgtNS01LTV6bS0xMSAxOWgtM3YtMTFoM3YxMXptLTEuNS0xMi4yNjhjLS45NjYgMC0xLjc1LS43OS0xLjc1LTEuNzY0cy43ODQtMS43NjQgMS43NS0xLjc2NCAxLjc1Ljc5IDEuNzUgMS43NjQtLjc4MyAxLjc2NC0xLjc1IDEuNzY0em0xMy41IDEyLjI2OGgtM3YtNS42MDRjMC0zLjM2OC00LTMuMTEzLTQgMHY1LjYwNGgtM3YtMTFoM3YxLjc2NWMxLjM5Ni0yLjU4NiA3LTIuNzc3IDcgMi40NzZ2Ni43NTl6Ii8%2bPC9zdmc%2b" alt="LinkedIn" /></a>
-  </p>
-
-  <br>
-
-  <!-- Stats & Top Languages Side-by-Side -->
-  <p align="center">
-    <a href="https://github.com/vikingnope"><img src="assets/stats.svg?v=1" alt="Aiden's GitHub Stats" width="48%" /></a>&nbsp;<a href="https://github.com/vikingnope"><img src="assets/top-langs.svg?v=1" alt="Top Languages" width="48%" /></a>
-  </p>
-
-  <br>
-
-  <h3>🚀 About Me</h3>
-
-  <p>
-    🔭 I'm currently working on <a href="https://worther.vercel.app/">Worther</a>, and with both the <a href="https://github.com/Horizon-Simulations">Horizon Simulations</a> team and the <a href="https://lunar-simulations.github.io/">Lunar Simulations</a> team developing aircraft for Microsoft Flight Simulator.<br>
-    🌱 I'm currently learning <b>Zig</b>.<br>
-    ⚡ <b>Hobbies</b>: Coding, Football, Gaming, Aviation, Flight Simulation, Rockets and Space.
-  </p>
-
-  <br>
-
-
+  <h1>👋 Hey, I'm Aiden</h1>
   
-  <h3>🛠️ Skills</h3>
-
-  <p><b>Languages</b></p>
   <p>
-    <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-    <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white" alt="Zig" />
-    <img src="https://img.shields.io/badge/Shell-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+    <b>Undergraduate Physics Student</b> • Based in Malta 🇲🇹
   </p>
 
-  <p><b>Frontend</b></p>
   <p>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
-    <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-  </p>
-
-  <p><b>Backend & Cloud</b></p>
-  <p>
-    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres" />
-    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-    <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP" />
-    <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
-    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  </p>
-
-  <p><b>Tools & Systems</b></p>
-  <p>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-    <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=macOS&logoColor=white" alt="macOS" />
-    <img src="https://img.shields.io/badge/Windows-0078D7?style=for-the-badge&logo=windows&logoColor=black" alt="Windows" />
-    <img src="https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim" />
-    <img src="https://img.shields.io/badge/Helix-281733?style=for-the-badge&logo=helix&logoColor=white" alt="Helix">
-    <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+    <a href="https://discord.gg/SUr3YEgH6C"><img src="https://go-skill-icons.vercel.app/api/icons?i=discord" alt="Discord" width="40" height="40" /></a>
+    <a href="https://www.github.com/schembriaiden"><img src="https://go-skill-icons.vercel.app/api/icons?i=github" alt="Github" width="40" height="40" /></a>
+    <a href="https://www.linkedin.com/in/aiden-schembri-a8a057218/"><img src="https://go-skill-icons.vercel.app/api/icons?i=linkedin" alt="LinkedIn" width="40" height="40" /></a>
   </p>
 
   <br>
 
-  <h3>🏆 Top Repositories</h3>
+  ## 🚀 About Me
 
+  🔭 Working on [Worther](https://worther.vercel.app/), developing aircraft for MSFS with [Horizon Simulations](https://github.com/Horizon-Simulations) & [Lunar Simulations](https://lunar-simulations.github.io/)  
+  🌱 Currently learning **Zig**  
+  ⚡ Hobbies: Coding • Football • Gaming • Aviation • Flight Sim • Rockets & Space  
+
+  <br>
+
+  ## 📊 GitHub Stats
+
+  ![Stats](./profile/stats.svg)
+  ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=schembriaiden&theme=tokyonight&hide_border=true)
+  ![Top Languages](./profile/top-langs.svg)
+
+  <br>
+
+  ## 🏆 GitHub Trophies
+
+  <img src="https://github-profile-trophy.vercel.app/?username=schembriaiden&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies" />
+
+  <br>
+
+  ## 🛠️ Tech Stack
+
+  **Languages**
+  
   <p>
-    <img src="assets/top-repos.svg?v=1" alt="Top Repositories" width="480px" />
+    <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://go-skill-icons.vercel.app/api/icons?i=c" alt="C" width="48" height="48" /></a>
+    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img src="https://go-skill-icons.vercel.app/api/icons?i=cs" alt="C#" width="48" height="48" /></a>
+    <a href="https://www.java.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=java" alt="Java" width="48" height="48" /></a>
+    <a href="https://www.python.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=python" alt="Python" width="48" height="48" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://go-skill-icons.vercel.app/api/icons?i=js" alt="JavaScript" width="48" height="48" /></a>
+    <a href="https://www.typescriptlang.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=typescript" alt="TypeScript" width="48" height="48" /></a>
+    <a href="https://ziglang.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=zig" alt="Zig" width="48" height="48" /></a>
+    <a href="https://www.gnu.org/software/bash/"><img src="https://go-skill-icons.vercel.app/api/icons?i=bash" alt="Bash" width="48" height="48" /></a>
   </p>
 
-  <br><br>
+  **Frontend**
+  
+  <p>
+    <a href="https://react.dev"><img src="https://go-skill-icons.vercel.app/api/icons?i=react" alt="React" width="48" height="48" /></a>
+    <a href="https://nextjs.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=nextjs" alt="Next.js" width="48" height="48" /></a>
+    <a href="https://tanstack.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=tanstack" alt="TanStack" width="48" height="48" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://go-skill-icons.vercel.app/api/icons?i=html" alt="HTML" width="48" height="48" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://go-skill-icons.vercel.app/api/icons?i=css" alt="CSS" width="48" height="48" /></a>
+    <a href="https://tailwindcss.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=tailwind" alt="Tailwind CSS" width="48" height="48" /></a>
+    <a href="https://vitejs.dev"><img src="https://go-skill-icons.vercel.app/api/icons?i=vite" alt="Vite" width="48" height="48" /></a>
+  </p>
 
-  <h3>💖 Support Me</h3>
+  **Backend & Cloud**
+  
+  <p>
+    <a href="https://bun.sh"><img src="https://go-skill-icons.vercel.app/api/icons?i=bun" alt="Bun" width="48" height="48" /></a>
+    <a href="https://nodejs.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs" alt="Node.js" width="48" height="48" /></a>
+    <a href="https://www.postgresql.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=postgres" alt="PostgreSQL" width="48" height="48" /></a>
+    <a href="https://firebase.google.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=firebase" alt="Firebase" width="48" height="48" /></a>
+    <a href="https://cloud.google.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=gcp" alt="Google Cloud" width="48" height="48" /></a>
+    <a href="https://azure.microsoft.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=azure" alt="Azure" width="48" height="48" /></a>
+    <a href="https://www.cloudflare.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=cloudflare" alt="Cloudflare" width="48" height="48" /></a>
+    <a href="https://vercel.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=vercel" alt="Vercel" width="48" height="48" /></a>
+  </p>
+
+  **Tools & Systems**
+  
+  <p>
+    <a href="https://www.docker.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=docker" alt="Docker" width="48" height="48" /></a>
+    <a href="https://www.linux.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=linux" alt="Linux" width="48" height="48" /></a>
+    <a href="https://www.vim.org"><img src="https://go-skill-icons.vercel.app/api/icons?i=vim" alt="Vim" width="48" height="48" /></a>
+    <a href="https://neovim.io"><img src="https://go-skill-icons.vercel.app/api/icons?i=neovim" alt="Neovim" width="48" height="48" /></a>
+    <a href="https://helix-editor.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=helix" alt="Helix" width="48" height="48" /></a>
+    <a href="https://git-scm.com"><img src="https://go-skill-icons.vercel.app/api/icons?i=git" alt="Git" width="48" height="48" /></a>
+    <a href="https://www.arduino.cc"><img src="https://go-skill-icons.vercel.app/api/icons?i=arduino" alt="Arduino" width="48" height="48" /></a>
+  </p>
+
+  <br>
+
+  ## 💖 Support My Work
 
   <p>
-    <a href="https://www.buymeacoffee.com/schembriaiden"><img src="assets/button-bmc.svg?v=1" height="50" alt="Buy Me A Coffee" /></a>&nbsp;&nbsp;<a href="https://www.paypal.com/donate/?hosted_button_id=4RJY7V64TUKHQ"><img src="assets/button-paypal.svg?v=1" height="50" alt="PayPal" /></a>
+    <a href="https://www.buymeacoffee.com/schembriaiden">
+      <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" height="45" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://www.paypal.com/donate/?hosted_button_id=4RJY7V64TUKHQ">
+      <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" height="45" />
+    </a>
   </p>
+
+  <br>
+
+  <sub>💡 <i>Stats update automatically • Dark/Light theme support</i></sub>
 
 </div>
