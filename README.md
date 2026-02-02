@@ -106,17 +106,11 @@
   ## 💖 Support My Work
 
   <p>
-    <a href="https://www.buymeacoffee.com/schembriaiden">
-      <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" height="45" />
-    </a>
+    <a href="https://www.buymeacoffee.com/schembriaiden"><img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" height="45" style="border: 0;" /></a>
     &nbsp;&nbsp;
-    <a href="https://www.paypal.com/donate/?hosted_button_id=4RJY7V64TUKHQ">
-      <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" height="45" />
-    </a>
+    <a href="https://www.paypal.com/donate/?hosted_button_id=4RJY7V64TUKHQ"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" height="45" style="border: 0;" /></a>
   </p>
 
   <br>
-
-  <sub>💡 <i>Stats update automatically • Dark/Light theme support</i></sub>
 
 </div>
