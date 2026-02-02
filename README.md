@@ -24,15 +24,14 @@
 
   ## 📊 GitHub Stats
 
-  ![Stats](./profile/stats.svg)
-  ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=schembriaiden&theme=tokyonight&hide_border=true)
-  ![Top Languages](./profile/top-langs.svg)
+  <img src="./profile/stats.svg" alt="Stats" height="200" />
+  <img src="./profile/top-langs.svg" alt="Top Languages" height="200" />
 
   <br>
 
   ## 🏆 GitHub Trophies
 
-  <img src="https://github-profile-trophy.vercel.app/?username=schembriaiden&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies" />
+  <img src="./profile/trophy.svg" alt="GitHub Trophies" />
 
   <br>
 
