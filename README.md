@@ -24,8 +24,22 @@
 
   ## 📊 GitHub Stats
 
-  <img src="./profile/stats.svg" alt="Stats" height="200" />
-  <img src="./profile/top-langs.svg" alt="Top Languages" height="200" />
+  <p align="center">
+    <img src="./profile/stats.svg" alt="Stats" width="49%" />
+    <img src="./profile/top-langs.svg" alt="Top Languages" width="49%" />
+  </p>
+
+  <br>
+
+  ## 📅 Contribution Calendar
+
+  ![Isometric Calendar](./profile/isocalendar.svg)
+
+  <br>
+
+  ## ⭐ Top Starred Repositories
+
+  ![Starred Repos](./profile/starred-repos.svg)
 
   <br>
 

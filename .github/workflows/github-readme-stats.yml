@@ -31,6 +31,30 @@ jobs:
           options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&langs_count=8
           path: profile/top-langs.svg
           token: ${{ secrets.GH_PAT }}
+
+      - name: Generate isometric calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_PAT }}
+          user: schembriaiden
+          template: classic
+          base: ""
+          config_timezone: Europe/Malta
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          filename: profile/isocalendar.svg
+
+      - name: Generate starred repositories
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_PAT }}
+          user: schembriaiden
+          template: classic
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 3
+          filename: profile/starred-repos.svg
+
       - name: Generate Profile Trophy
         uses: ryo-ma/github-profile-trophy@master
         with:
