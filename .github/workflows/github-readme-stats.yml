@@ -32,7 +32,7 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GH_PAT }}
       - name: Generate Profile Trophy
-        uses: github.com/ryo-ma/github-profile-trophy@master
+        uses: ryo-ma/github-profile-trophy@master
         with:
             token: ${{ secrets.GITHUB_TOKEN }}
             username: schembriaiden
