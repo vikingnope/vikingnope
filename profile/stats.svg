@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">schembriaiden's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 22, Total Commits  : 7823, Total PRs: 879, Total Issues: 190, Contributed to (last year): 27</desc>
+        <title id="titleId">Aiden Schembri's GitHub Stats, Rank: A-</title>
+        <desc id="descId">Total Stars Earned: 22, Total Commits  : 7832, Total PRs: 879, Total Issues: 190, Contributed to (last year): 27</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 80.57840089222091;
+        stroke-dashoffset: 80.57725050249884;
       }
     }
   
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >schembriaiden's GitHub Stats</text>
+      >Aiden Schembri's GitHub Stats</text>
     </g>
       </g>
     
